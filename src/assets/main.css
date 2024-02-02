@@ -1,0 +1,45 @@
+.frm {
+  width: 600px;
+  margin:  18px auto;
+  /* background-color: #eee; */
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   */
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 8px;
+}
+
+.frm label{
+  color: dimgray;
+}
+
+.frm .frm-control{
+  padding: 9px;
+  border-radius: 6px; 
+  border:  1px solid #ccc;
+  margin-bottom: 9px;
+  outline: none;
+}
+
+.frm ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  grid-area: 6px;
+  gap: 6px;
+}
+.frm ul li{
+  font-size: 12px;
+  padding: 8px;
+  /* border: 1px solid rgb(255, 0, 0); */
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+}
+.frm ul li:hover{
+  background-color: salmon;
+}
